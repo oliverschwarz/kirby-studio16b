@@ -1,19 +1,20 @@
-<!DOCTYPE html>
-<html lang="de">
-<head>
+<?php snippet('header') ?>
 
-  <meta charset="utf-8">
-  <title><?php echo $site->title()->html(); ?></title>
-  <meta name="viewport" content="width=device-width,minimum-scale=1.0">
-  <meta name="referrer" content="no-referrer">
-  <link rel="canonical" href="<?= $site->url() ?>">
-  <?php echo css('assets/layout.css'); ?>
+<?php snippet('languages') ?>
 
-</head>
-<body>
+<?php snippet('navigation') ?>
 
 <h1><?= $page->title() ?></h1>
 
+<h2 class="introduction">
+	<?= $page->intro()->kirbytext() ?>
+</h2>
 
-</body>
-</html>
+<main>
+	<?= $page->text()->kirbytext() ?>
+</main>
+
+
+<?php snippet('siteinfo') ?>
+
+<?php snippet('footer') ?>
