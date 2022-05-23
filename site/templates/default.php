@@ -1,20 +1,14 @@
-<?php snippet('header') ?>
+<?php snippet('meta'); ?>
 
-<?php snippet('languages') ?>
-
-<?php snippet('navigation') ?>
-
-<h1><?= $page->title() ?></h1>
-
-<h2 class="introduction">
-	<?= $page->intro()->kirbytext() ?>
-</h2>
+<?php snippet('header'); ?>
 
 <main>
-	<?= $page->text()->kirbytext() ?>
+	<div class="stage">
+		<h2 class="introduction">
+			<?= $page->intro()->kirbytext() ?>
+		</h2>
+		<?= $page->text()->kirbytext() ?>
+	</div>
 </main>
 
-
-<?php snippet('siteinfo') ?>
-
-<?php snippet('footer') ?>
+<?php snippet('footer'); ?>
