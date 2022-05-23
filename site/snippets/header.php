@@ -1,13 +1,29 @@
-<!DOCTYPE html>
-<html lang="de">
-<head>
+<header class="home">
+  <div class="stage">
 
-  <meta charset="utf-8">
-  <title><?php echo $site->title()->html(); ?></title>
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <meta name="referrer" content="no-referrer">
-  <link rel="canonical" href="<?= $site->url() ?>">
-  <?php echo css('assets/layout.css'); ?>
+    <div id="logo">
+      <img src="/assets/logo-studio16b.svg">
+    </div>
 
-</head>
-<body>
+    <nav class="main-nav">
+      <div class="stage">
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+        <?php foreach ($site->children()->listed() as $item): ?>
+          <li><?php echo $item->title()->link(); ?></li>
+        <?php endforeach; ?>
+        </ul>
+      </div>
+    </nav>
+
+  </div>
+
+  <!-- Commitment -->
+  <div class="commitment">
+    <div class="stage">
+      <h1><?= $page->headline() ?></h1>
+    </div>
+  </div>
+
+</header>
