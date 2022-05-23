@@ -17,11 +17,11 @@ Open repository for the website of our Studio16b. Feel free to copy and share if
 
 Our palette is taken from [a beautiful muzli colors palette](https://colors.muz.li/palette/ffa822/134e6f/ff6150/1ac0c6/dee0e6):
 
-* #FFA822
-* #134E6F
-* #FF6150
-* #1AC0C6
-* #DEE0E6
+* Yellow: #FFA822
+* Dark Blue: #134E6F
+* Red: #FF6150
+* Turquoise: #1AC0C6
+* Light grey: #DEE0E6
 
 ## Documentation
 
@@ -32,3 +32,4 @@ Our palette is taken from [a beautiful muzli colors palette](https://colors.muz.
 3. Create standards: Listed content and required content
 4. Create navigation
 5. Create standards (imprint, data privacy statement)
+6. normalize.css
