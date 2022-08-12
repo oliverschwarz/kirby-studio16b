@@ -35,27 +35,6 @@ nav.languages ul {margin:0;padding:0;text-align:right;}
 nav.languages li {font-size:.4rem;display:inline-grid;padding:0 0 0 1em}
 nav.languages a {color:#646464;text-decoration:none;text-transform:uppercase;}
 
-/* .main-nav {background-color: #FF6150;} */
-/* .main-nav ul {margin:0;padding:0;} */
-/* .main-nav li {font-size:.7rem;display:inline-grid;padding:0 1rem 0 0;} */
-/* .main-nav a {color:#134E6F;font-weight:bold;text-decoration:none;text-transform:uppercase;} */
-
-.site-nav ul {
-  margin: 0;
-  padding: 1rem 0;
-}
-
-.site-nav li {
-  display: inline-grid;
-  padding: 0 .5rem 0 0;
-}
-
-.site-nav a {
-  color: #646464;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
 .social {
   padding: 1rem 0 ;
 }
@@ -74,139 +53,6 @@ nav.languages a {color:#646464;text-decoration:none;text-transform:uppercase;}
   background-size: 32px 32px;
   height: 32px;
   padding: 10px 0 0 42px;
-}
-
-/* =hamburger navigation (css-only)
-    ======================================================================= */
-
-/*  With many thanks taken from:
-    https://codepen.io/mutedblues/pen/MmPNPG
-    */
-
-.main-nav {
-  width: 100%;
-  z-index: 3;
-}
-
-.main-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  overflow: hidden;
-  background-color: #fff;
-}
-
-.main-nav li {
-  text-transform: uppercase;
-}
-
-.main-nav li a {
-  display: block;
-  color: #134E6F;
-  padding: .25rem .25rem .5rem .25rem;
-  text-decoration: none;
-}
-
-.main-nav li a:hover,
-.main-nav .menu-btn:hover {
-}
-
-.main-nav .logo {
-  display: block;
-  float: left;
-  font-size: 2em;
-  padding: 10px 20px;
-  text-decoration: none;
-}
-
-.main-nav .menu {
-  clear: both;
-  max-height: 0;
-  transition: max-height .2s ease-out;
-}
-
-.main-nav .menu-icon {
-  cursor: pointer;
-  display: inline-block;
-  float: right;
-  /* padding: .20px 5px 20px 20px;*/
-  padding: 2rem 0 1rem 0;
-  position: relative;
-  user-select: none;
-}
-
-.main-nav .menu-icon .navicon {
-  background: #333;
-  display: block;
-  height: 2px;
-  position: relative;
-  transition: background .2s ease-out;
-  width: 18px;
-}
-
-.main-nav .menu-icon .navicon:before,
-.main-nav .menu-icon .navicon:after {
-  background: #333;
-  content: '';
-  display: block;
-  height: 100%;
-  position: absolute;
-  transition: all .2s ease-out;
-  width: 100%;
-}
-
-.main-nav .menu-icon .navicon:before {
-  top: 5px;
-}
-
-.main-nav .menu-icon .navicon:after {
-  top: -5px;
-}
-
-/* menu btn */
-
-.main-nav .menu-btn {
-  display: none;
-}
-
-.main-nav .menu-btn:checked ~ .menu {
-  max-height: 240px;
-}
-
-.main-nav .menu-btn:checked ~ .menu-icon .navicon {
-  background: transparent;
-}
-
-.main-nav .menu-btn:checked ~ .menu-icon .navicon:before {
-  transform: rotate(-45deg);
-}
-
-.main-nav .menu-btn:checked ~ .menu-icon .navicon:after {
-  transform: rotate(45deg);
-}
-
-.main-nav .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
-.main-nav .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
-  top: 0;
-}
-
-/* Only hamburger menu relevant items go into this media query */
-@media (min-width: 48em) {
-  .main-nav li {
-    float: left;
-  }
-  .main-nav li a {
-    /*padding: 20px 30px;*/
-    padding: 0 2rem 0 0;
-  }
-  .main-nav .menu {
-    clear: both;
-    /*float: right;*/
-    max-height: none;
-  }
-  .main-nav .menu-icon {
-    display: none;
-  }
 }
 
 /* =header
@@ -241,9 +87,8 @@ header h1 {
 
 #logo {
   margin: 0 0 0 0;
-  padding: 1.5rem 0;
-  float: left;
-  width: 75%;
+  padding: 3rem 0;
+  text-align: center;
 }
 #logo img {
   width: 75%;
