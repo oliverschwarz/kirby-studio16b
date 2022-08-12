@@ -47,7 +47,6 @@ nav.languages a {color:#646464;text-decoration:none;text-transform:uppercase;}
 
 .site-nav li {
   display: inline-grid;
-  font-size: .8rem;
   padding: 0 .5rem 0 0;
 }
 
@@ -98,7 +97,6 @@ nav.languages a {color:#646464;text-decoration:none;text-transform:uppercase;}
 }
 
 .main-nav li {
-  font-size: .8rem;
   text-transform: uppercase;
 }
 
@@ -222,10 +220,10 @@ header {
 
 header h1 {
   color: #134E6F;
-  font-family: georgia, serif;
-  font-size: 1.4rem;
-  font-weight: normal;
-  line-height: 1.5;
+  /*font-family: georgia, serif;*/
+  font-size: 1.7rem;
+  /*font-weight: normal;*/
+  line-height: 1.3;
   margin-bottom: .5rem;
 }
 
@@ -237,11 +235,15 @@ header h1 {
   padding: 1rem 0 0 0;
 }
 
+.introduction {
+  font-size: 1.4rem;
+}
+
 #logo {
   margin: 0 0 0 0;
   padding: 1.5rem 0;
   float: left;
-  width: 80%;
+  width: 75%;
 }
 #logo img {
   width: 75%;
@@ -297,7 +299,10 @@ footer .direct-contact {
     width: 50%;
   }
   header h1 {
-    font-size: 2rem;
+    font-size: 3rem;
+  }
+  .introduction {
+    line-height: 1.3em;
   }
   .main-nav li {
     display: inline-grid;
