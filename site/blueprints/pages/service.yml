@@ -2,8 +2,16 @@ title: Service
 preset: page
 
 status:
-  draft: Draft
-  listed: Published
+  draft:
+    label: Draft
+    text:
+      de: Der Artikel ist noch im Entwurfsstatus und wird nicht auf der Webseite angezeigt.
+      en: The article is still in draft mode and is not shown on the website.
+  listed:
+    label: Published
+    text:
+      de: Der Artikel ist veröffentlicht und wird auf der Webseite dargestellt.
+      en: The article is published and viewable on the website.
 
 fields:
   headline:

@@ -1,7 +1,7 @@
 type: pages
 label: Services
 parent: kirby.page('services')
-layout: cards
+layout: cardlets
 template: service
 image:
   query: page.images.template("cover").first

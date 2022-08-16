@@ -10,7 +10,7 @@ tabs:
         type: pages
       listed:
         label: Service
-        layout: cards
+        layout: cardlets
         info: "{{ page.position }}"
         template: service
         type: pages

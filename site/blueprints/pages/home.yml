@@ -1,4 +1,6 @@
-title: Team Member
+title:
+  en: Homepage
+  de: Startseite
 preset: page
 icon: home
 
@@ -13,7 +15,9 @@ fields:
     buttons: false
     size: small
   intro:
-    label: Introduction
+    label:
+      de: Einleitung
+      en: Introduction
     type: textarea
     buttons: false
     size: small

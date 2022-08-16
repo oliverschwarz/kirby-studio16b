@@ -9,4 +9,4 @@ drafts:
 listed:
   extends: sections/services
   label: Published Services
-  layout: cards
+  layout: cardlets
