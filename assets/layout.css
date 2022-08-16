@@ -3,17 +3,14 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
 
 /* =studio16b.com ======================================================= */
 
-
 /* =main items    ======================================================= */
 body, html {
-  font: 1rem/1.5rem Arial, sans-serif;
+  font: 1.5rem/2rem Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-smoothing: antialiased;
 }
-.stage {
-  margin: 0 1rem;
-}
+
 img {
   max-width: 100%; 
 }
@@ -29,25 +26,45 @@ img {
   clear: both;
 }
 
-/* =nav           ======================================================= */
-nav.languages {  }
-nav.languages ul {margin:0;padding:0;text-align:right;}
-nav.languages li {font-size:.4rem;display:inline-grid;padding:0 0 0 1em}
-nav.languages a {color:#646464;text-decoration:none;text-transform:uppercase;}
+/* =site navigation ==================================================== */
+#site-nav {
+  text-align: center;
+  font-size: .5rem;
+}
+
+#site-nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+#site-nav li {
+  display: inline-grid;
+  padding: 0 .4rem;
+  margin: 0;
+}
+
+#site-nav a {
+  color: #646464;
+  text-decoration: none;
+  text-transform: uppercase;
+}
 
 .social {
   padding: 1rem 0 ;
 }
+
 .social h3 {
   font-size: 1rem;
   color: #134E6F;
   margin-bottom: 0;
 }
+
 .social ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
+
 .social li.linkedin {
   background: url(./icon-linkedin-dark.svg) 0 50% no-repeat;
   background-size: 32px 32px;
@@ -55,26 +72,8 @@ nav.languages a {color:#646464;text-decoration:none;text-transform:uppercase;}
   padding: 10px 0 0 42px;
 }
 
-/* =header
-   ====================================================================== */
-header {
-  /*background-color: #FF6150;*/
-  /* border-bottom: .5rem solid #FFA822; */
-  /* padding: 7rem 0 5rem; */
-  /* padding: 2rem 0 1rem; */
-}
-
-header h1 {
-  color: #134E6F;
-  /*font-family: georgia, serif;*/
-  font-size: 1.7rem;
-  /*font-weight: normal;*/
-  line-height: 1.3;
-  margin-bottom: .5rem;
-}
-
 .wallpaper {
-  padding: .5rem 0 0 0;
+text-align: center;
 }
 
 .commitment {
@@ -82,25 +81,26 @@ header h1 {
 }
 
 .introduction {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
 }
 
-#logo {
+#logo {}
+
+.home #logo {
   margin: 0 0 0 0;
-  padding: 3rem 0;
+  padding: 1rem 0 .5rem 0;
   text-align: center;
 }
-#logo img {
+
+.home #logo img {
+  margin: 0;
+  padding: 0;
   width: 75%;
 }
 
 /* =main
    ====================================================================== */
-main {
-  font-size: 1.2rem;
-  line-height: 1.7rem;
-  padding: .5rem 0 2rem 0;
-}
+main {}
 
 /* =footer
    ====================================================================== */
@@ -126,43 +126,30 @@ footer .direct-contact {
 
 /* =screen
    ====================================================================== */
+@media screen and (min-width: 32em) {
+  html, body {
+    border-top: .5rem solid lightskyblue;
+  }
+  .home #logo {
+    float: left;
+    width: 30%;
+  }
+}
 @media screen and (min-width: 48em) {
-  .stage {
+  html, body {
+    border-top: .5rem solid lightcoral;
+  }
+
+  header, main, footer {
+    width: 36rem;
     margin: 0 auto;
-    width: 48rem;
   }
-  .wallpaper {
-    padding: 1.5rem 0 0 0;
-  }
-  .wallpaper img {
-    width: 100%;
-  }
-  #logo {
-    margin: 3rem 0 1rem 0;
-  }
-  #logo img {
-    width: 50%;
-  }
-  header h1 {
-    font-size: 3rem;
-  }
-  .introduction {
-    line-height: 1.3em;
-  }
-  .main-nav li {
-    display: inline-grid;
-  }
-  footer .sticker {
-    float: left;
-  }
-  footer .sticker img {
-    float:  left;
-    width: 120px;
-    padding: 0 1rem 0 0;
-  }
-  footer .direct-contact {
-    padding: 0;
-    float: left;
+
+  #site-nav {
+    float: right;
+    text-align: center;
+    font-size: .8rem;
+    padding: 1rem;
   }
 }
 
