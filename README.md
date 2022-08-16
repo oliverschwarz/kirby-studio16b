@@ -25,11 +25,4 @@ Our palette is taken from [a beautiful muzli colors palette](https://colors.muz.
 
 ## Documentation
 
-### First Steps
-
-1. The ultimate first step is to decide about mulitlanguage on the page. Check out [the introduction on languages](https://getkirby.com/docs/guide/languages/introduction) in the Kirby documentation. Add the desired setting to the configuration and add the languages to `site/languages`. From this point on you will have to append language suffixes to the articles you write and the content you will create.
-2. Create basic snippets: header, footer
-3. Create standards: Listed content and required content
-4. Create navigation
-5. Create standards (imprint, data privacy statement)
-6. normalize.css
+The main image ratio will be 1600 x 686 pixel.
