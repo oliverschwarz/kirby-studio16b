@@ -1,0 +1,12 @@
+title: Services
+extends: layouts/services
+icon: ⚓️
+
+drafts:
+  extends: sections/services
+  label: Services Drafts
+
+listed:
+  extends: sections/services
+  label: Published Services
+  layout: cards

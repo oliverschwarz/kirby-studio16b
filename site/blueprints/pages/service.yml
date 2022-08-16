@@ -1,0 +1,25 @@
+title: Service
+preset: page
+
+status:
+  draft: Draft
+  listed: Published
+
+fields:
+  headline:
+    type: text
+    width: 3/4
+    required: true
+  text:
+    type: textarea
+    size: medium
+
+sidebar:
+  cover:
+    type: files
+    label: Cover
+    layout: cards
+    info: "{{ file.dimensions }}"
+    template: cover
+    min: 0
+    max: 1

@@ -1,0 +1,33 @@
+tabs:
+
+  team:
+    label: Services
+    sections:
+      drafts:
+        label: New Services
+        info: "{{ page.position }}"
+        template: service
+        type: pages
+      listed:
+        label: Service
+        layout: cards
+        info: "{{ page.position }}"
+        template: service
+        type: pages
+        image:
+          ratio: 1/1
+          cover: true
+
+  content:
+    label: Content
+    preset: page
+    pages: false
+    fields:
+      highlight:
+        label: Highlight
+        type: textarea
+        size: small
+      intro:
+        label: Introduction
+        type: textarea
+        size: small
