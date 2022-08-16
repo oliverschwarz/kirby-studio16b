@@ -50,6 +50,10 @@ img {
     display: block;
 }
 
+a {
+    color: var(--color-darkblue);
+}
+
 /*! custom structures */
 .stage {
     margin: 0 auto;
@@ -203,10 +207,6 @@ footer h3 {
 .standards a {
     color: var(--color-medgrey);
     text-decoration: none;
-}
-
-a {
-    color: var(--color-darkblue);
 }
 
 @media screen and (min-width: 48em) {
