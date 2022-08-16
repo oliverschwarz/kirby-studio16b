@@ -26,3 +26,25 @@ Our palette is taken from [a beautiful muzli colors palette](https://colors.muz.
 ## Documentation
 
 The main image ratio will be 1600 x 686 pixel.
+
+### Fields needed
+
+#### Company
+
+* Name
+* Address
+* Contact E-Mail
+* Contact phone number
+
+#### Personal
+
+* LinkedIn-Link Oliver
+* LinkedIn-Link Janina
+* LinkedIn Disclaimer
+
+#### Home
+
+* Highlight
+* Featured image
+* Introduction
+* Content
