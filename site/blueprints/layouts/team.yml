@@ -1,0 +1,29 @@
+tabs:
+
+  team:
+    label: Team
+    sections:
+      drafts:
+        label: New Team Members
+        info: "{{ page.position }}"
+        template: team-member
+        type: pages
+      listed:
+        label: Team
+        layout: cards
+        info: "{{ page.position }}"
+        template: team-member
+        type: pages
+        image:
+          ratio: 1/1
+          cover: true
+
+  content:
+    label: Content
+    preset: page
+    pages: false
+    fields:
+      intro:
+        label: Intro
+        type: textarea
+        size: medium

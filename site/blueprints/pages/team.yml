@@ -1,0 +1,9 @@
+title: Team
+extends: layouts/team
+
+icon: 👫
+
+options:
+  url: false
+  status: true
+  delete: false

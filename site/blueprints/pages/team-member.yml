@@ -1,0 +1,41 @@
+title: Team Member
+preset: page
+icon: user
+
+status:
+  draft: true
+  listed: true
+
+fields:
+  intro:
+    label: Introduction / Quote
+    type: textarea
+    size: small
+  phone:
+    label: Phone
+    type: tel
+    width: 1/2
+    translate: false
+  email:
+    label: Email
+    type: email
+    width: 1/2
+    translate: false
+  linkedin:
+    label: LinkedIn Link
+    type: url
+    translate: false
+  about:
+    label: About
+    type: textarea
+    size: large
+
+sidebar:
+  image:
+    extends: sections/image
+    label: Team Member
+    min: 1
+    max: 1
+    image:
+      ratio: 1/1
+      cover: true
