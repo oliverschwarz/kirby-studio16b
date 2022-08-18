@@ -1,8 +1,8 @@
 <footer>
-	<div class="stage">
-        <figure class="sticker">
+	<div class="stage cf">
+        <div id="sticker">
             <img src="<?= $site->url(false); ?>/assets/logo-mini.svg">
-        </figure>
+        </div>
         <div id="direct-contact">
             <address>
                     <strong><?= $site->companyname() ?></strong><br>

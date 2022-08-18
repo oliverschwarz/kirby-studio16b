@@ -54,6 +54,19 @@ a {
     color: var(--color-darkblue);
 }
 
+/*! custom helpers */
+
+/*! micro-clearfix: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.cf:before,
+.cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
 /*! custom structures */
 .stage {
     margin: 0 auto;
@@ -155,11 +168,11 @@ footer h3 {
     font-weight: normal;
 }
 
-.sticker {
+#sticker {
     margin: 0 0 2rem 0;
 }
 
-.sticker img {
+#sticker img {
     border: .5rem solid var(--color-lightgrey);
     width: 30%;
 }
@@ -214,21 +227,26 @@ footer h3 {
 }
 
 @media screen and (min-width: 28em) {
+
+    /*! header */
     header { border-top: var(--border-size) solid #c96; }
     #logo { padding: 1.7rem 0 0 0;margin: 0;float:left;width:30%; }
-    #logo img { width:96%; }
-    main { clear:both; }
+    #logo img { width: 94%; }
     #nav-main { text-align: right;margin: 0;padding: 1.8rem 0 0 0; }
+
+    /*! main */
+    #highlight h2 { font-size: 1.5rem; }
+
+    /*! footer */
+    #sticker { float: left; width: 50%; }
+    #sticker img { width: 70%; }
+    #direct-contact { float: left; }
+    .social { padding: 0 0 1rem 0; }
+
 }
 
 @media screen and (min-width: 48em) {
-    body, html {
-        font-size: 1.3rem;
-    }
-    .stage {
-        width: 36rem;
-    }
-    #intro {
-        font-size: 1.8rem;
-    }
+    body, html { font-size: 1.3rem; }
+    .stage { width: 36rem; }
+    #intro { font-size: 1.5rem;}
 }
