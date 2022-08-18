@@ -12,6 +12,9 @@
           <?php foreach ($site->children()->listed() as $item): ?>
             <li><?= $item->title()->link(); ?></li>
           <?php endforeach; ?>
+          <?php foreach($kirby->languages() as $language): if ($kirby->language() != $language): ?>
+            <li><a href="<?= $language->url() ?>" hreflang="<?= $language->code() ?>"><?= html($language->code()) ?></a></li>
+          <?php endif; endforeach; ?>
           </ul>
         </nav>
 
