@@ -9,7 +9,6 @@
                     <?= $site->address()->kt() ?>
             </address>
             <p>
-                <?= $site->phone() ?><br>
                 <a href="mailto:<?= $site->email() ?>"><?= $site->email() ?></a>
             </p>
         </div>
