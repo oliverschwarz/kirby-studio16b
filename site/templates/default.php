@@ -4,9 +4,7 @@
 
 <main>
 	<div class="stage">
-		<h2 class="introduction">
-			<?= $page->intro()->kirbytext() ?>
-		</h2>
+		<h1><?= $page->title() ?></h1>
 		<?= $page->text()->kirbytext() ?>
 	</div>
 </main>
