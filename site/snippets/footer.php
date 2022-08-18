@@ -1,7 +1,7 @@
 <footer>
 	<div class="stage">
         <figure class="sticker">
-            <img src="<?php echo $site->url(false); ?>/assets/logo-mini.svg">
+            <img src="<?= $site->url(false); ?>/assets/logo-mini.svg">
         </figure>
         <div id="direct-contact">
             <address>
@@ -23,14 +23,14 @@
             <?php endforeach; ?>
             </ul>
             <aside>
-                <?php echo $site->LinkedInText(); ?>
+                <?= $site->LinkedInText(); ?>
             </aside>
         </div>
 
         <nav class="standards">
             <ul>
         <?php foreach ($site->find('info')->children()->listed() as $item): ?>
-                <li><?php echo $item->title()->link(); ?></li>
+                <li><?= $item->title()->link(); ?></li>
         <?php endforeach; ?>
             </ul>
         </nav>

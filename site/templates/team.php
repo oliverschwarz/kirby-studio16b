@@ -7,12 +7,12 @@
     <div id="content">
 
         <figure class="featured">
-            <?php echo $page->image(); ?>
+            <?= $page->image(); ?>
         </figure>
 
         <div id="intro">
             <div class="stage">
-                <p><?php echo $page->intro(); ?></p>
+                <p><?= $page->intro(); ?></p>
             </div>
         </div>
 
@@ -27,7 +27,7 @@
 
 </main>
 
-            <?php echo $page->text()->kirbytext(); ?>
+            <?= $page->text()->kirbytext(); ?>
         </div>
     </div>
 

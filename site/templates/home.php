@@ -7,23 +7,23 @@
     <div id="highlight" class="light">
 		<div class="stage">
             <h2>
-                <?php echo $page->highlight(); ?>
+                <?= $page->highlight(); ?>
             </h2>
 		</div>
     </div>
     <figure class="featured">
-        <?php echo $page->image(); ?>
+        <?= $page->image(); ?>
     </figure>
 
     <div id="intro">
         <div class="stage">
-            <p><?php echo $page->intro(); ?></p>
+            <p><?= $page->intro(); ?></p>
         </div>
     </div>
 
     <div id="content">
        <div class="stage">
-            <?php echo $page->text()->kirbytext(); ?>
+            <?= $page->text()->kirbytext(); ?>
         </div>
     </div>
 

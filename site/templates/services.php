@@ -8,16 +8,16 @@
 
         <div id="highlight">
             <div class="stage">
-                <h2><?php echo $page->highlight(); ?></h2>
+                <h2><?= $page->highlight(); ?></h2>
             </div>
         </div>
         <figure class="featured">
-            <?php echo $page->image(); ?>
+            <?= $page->image(); ?>
         </figure>
 
         <div id="intro">
             <div class="stage">
-                <p><?php echo $page->intro(); ?></p>
+                <p><?= $page->intro(); ?></p>
             </div>
         </div>
 
@@ -31,7 +31,7 @@
 
 </main>
 
-            <?php echo $page->text()->kirbytext(); ?>
+            <?= $page->text()->kirbytext(); ?>
         </div>
     </div>
 
