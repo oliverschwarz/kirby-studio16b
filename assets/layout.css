@@ -47,7 +47,7 @@ footer {
 img {
     max-width: 100%;
     width: 100%;
-    display: block;
+    /*display: block;*/
 }
 
 a {
@@ -63,6 +63,10 @@ a {
 
 .featured {
     border-bottom: var(--border-size) solid var(--color-yellow);
+}
+
+.featured img {
+    display: block;
 }
 
 /*! logo */
@@ -209,9 +213,17 @@ footer h3 {
     text-decoration: none;
 }
 
+@media screen and (min-width: 28em) {
+    header { border-top: var(--border-size) solid #c96; }
+    #logo { padding: 1.7rem 0 0 0;margin: 0;float:left;width:30%; }
+    #logo img { width:96%; }
+    main { clear:both; }
+    #nav-main { text-align: right;margin: 0;padding: 1.8rem 0 0 0; }
+}
+
 @media screen and (min-width: 48em) {
     body, html {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
     .stage {
         width: 36rem;
