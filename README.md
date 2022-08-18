@@ -35,9 +35,11 @@ The main image ratio will be 1600 x 686 pixel.
 [x] Static content to be replaced (footer.php)
 [x] Change header layout for non-mobile devices
 [x] Change footer layout for wider screens to have logo and address next to each other
-[ ] Build default.php (that can have variants at the top)
-[ ] Fill imprint and data privacy statement
-[ ] Add language icons to switch language
-[ ] Add favicon
-[ ] Build head of HTML document: Include opengraph stuff
+[x] Build default.php (that can have variants at the top)
+[x] Fill imprint and data privacy statement
+[x] Add language icons to switch language
+[x] Add favicon
+[x] Build head of HTML document: Include opengraph stuff
+[ ] Find better photos
+[ ] Correct content for go live
 [ ] Introduce second ratio for other images

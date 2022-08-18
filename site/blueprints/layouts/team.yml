@@ -38,4 +38,5 @@ tabs:
         image:
           ratio: 21/9
           cover: true
+          info: "{{ file.dimensions }} - Size: {{ file.size }} bytes"
         help: '<b>Info:</b> Ratio of 1600 x 686 works best.'

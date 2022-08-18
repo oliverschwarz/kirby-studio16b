@@ -23,7 +23,7 @@ sidebar:
     type: files
     label: Cover
     layout: cards
-    info: "{{ file.dimensions }}"
     template: cover
     min: 0
     max: 1
+    info: "{{ file.dimensions }} - Size: {{ file.size }} bytes"

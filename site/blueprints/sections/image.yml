@@ -2,4 +2,4 @@ type: files
 label: Bild
 max: 1
 layout: cards
-info: "{{ file.dimensions }}"
+info: "{{ file.dimensions }} - Size: {{ file.size }} bytes"

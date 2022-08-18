@@ -36,3 +36,4 @@ sidebar:
     image:
       ratio: 1/1
       cover: true
+    info: "{{ file.dimensions }} - Size: {{ file.size }} bytes"
