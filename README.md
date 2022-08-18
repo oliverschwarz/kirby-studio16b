@@ -40,6 +40,5 @@ The main image ratio will be 1600 x 686 pixel.
 [x] Add language icons to switch language
 [x] Add favicon
 [x] Build head of HTML document: Include opengraph stuff
-[ ] Find better photos
+[x] Find better photos
 [ ] Correct content for go live
-[ ] Introduce second ratio for other images
