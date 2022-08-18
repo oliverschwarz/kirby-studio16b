@@ -1,5 +1,5 @@
 type: pages
-label: Services
+label: Leistungen
 parent: kirby.page('services')
 layout: cardlets
 template: service

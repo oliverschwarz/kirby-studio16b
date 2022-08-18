@@ -1,6 +1,4 @@
-title:
-  en: Homepage
-  de: Startseite
+title: Homepage
 preset: page
 icon: home
 
@@ -10,14 +8,12 @@ status:
 
 fields:
   highlight:
-    label: Highlight / Quote
+    label: Highlight
     type: textarea
     buttons: false
     size: small
   intro:
-    label:
-      de: Einleitung
-      en: Introduction
+    label: Introduction
     type: textarea
     buttons: false
     size: small

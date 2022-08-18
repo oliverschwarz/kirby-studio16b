@@ -1,12 +1,12 @@
-title: Services
+title: Leistungen
 extends: layouts/services
 icon: ⚓️
 
 drafts:
   extends: sections/services
-  label: Services Drafts
+  label: Leistungen (Entwurf)
 
 listed:
   extends: sections/services
-  label: Published Services
+  label: Leistungen (Veröffentlicht)
   layout: cardlets

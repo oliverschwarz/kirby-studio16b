@@ -27,24 +27,12 @@ Our palette is taken from [a beautiful muzli colors palette](https://colors.muz.
 
 The main image ratio will be 1600 x 686 pixel.
 
-### Fields needed
+## Todo
 
-#### Company
-
-* Name
-* Address
-* Contact E-Mail
-* Contact phone number
-
-#### Personal
-
-* LinkedIn-Link Oliver
-* LinkedIn-Link Janina
-* LinkedIn Disclaimer
-
-#### Home
-
-* Highlight
-* Featured image
-* Introduction
-* Content
+[ ] Introduce second ratio for other images
+[ ] Change header layout for non-mobile devices
+[ ] Build default.php (that can have variants at the top)
+[ ] Static content to be replaced (footer.php)
+[ ] Fill imprint and data privacy statement
+[ ] Add language icons to switch language
+[ ] Build head of HTML document: Include opengraph stuff

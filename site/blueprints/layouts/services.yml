@@ -1,25 +1,27 @@
 tabs:
 
   team:
-    label: Services
+    label: Leistungen
     sections:
       drafts:
-        label: New Services
+        label: Leistungen (Entwurf)
         info: "{{ page.position }}"
         template: service
         type: pages
+        status: draft
       listed:
-        label: Service
+        label: Leistungen (Veröffentlicht)
         layout: cardlets
         info: "{{ page.position }}"
         template: service
         type: pages
+        status: published
         image:
           ratio: 1/1
           cover: true
 
   content:
-    label: Content
+    label: Inhalt
     preset: page
     pages: false
     fields:
@@ -28,6 +30,16 @@ tabs:
         type: textarea
         size: small
       intro:
-        label: Introduction
+        label: Einleitung
         type: textarea
         size: small
+    sidebar:
+      image:
+        extends: sections/image
+        label: Bild für Highlight
+        min: 1
+        max: 1
+        image:
+          ratio: 21/9
+          cover: true
+        help: '<b>Info:</b> Ratio of 1600 x 686 works best.'

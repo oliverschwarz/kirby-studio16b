@@ -1,5 +1,5 @@
 type: files
-label: Product image
+label: Bild
 max: 1
 layout: cards
 info: "{{ file.dimensions }}"
