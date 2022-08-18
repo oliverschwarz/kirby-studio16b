@@ -18,10 +18,10 @@
 
 <?php foreach ($page->children()->listed() as $member): ?>
         <div class="stage">
-        <?= $member->image() ?>
-            <h3><?= $member->title() ?></h3>
+            <h2><?= $member->title() ?></h2>
+            <?= $member->image() ?>
             <h4><?= $member->intro() ?></h4>
-            <p><?= $member->about() ?></p>
+            <p><?= $member->about()->kt() ?></p>
         </div>
 <?php endforeach ?>
 
