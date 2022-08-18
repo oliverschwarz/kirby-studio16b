@@ -16,7 +16,7 @@
     </div>
     <div class="stage">
         <div class="social">
-            <h3>Folgen Sie uns auf LinkedIn</h3>
+            <h3><?= $site->LinkedInHeadline() ?></h3>
             <ul>
             <?php foreach($site->find('about')->children()->listed() as $person): ?>
                 <li class="linkedin"><a href="<?= $person->linkedinlink() ?>"><?= $person->Title() ?></a></li>
