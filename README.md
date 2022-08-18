@@ -29,10 +29,11 @@ The main image ratio will be 1600 x 686 pixel.
 
 ## Todo
 
-[ ] Introduce second ratio for other images
-[ ] Change header layout for non-mobile devices
+[x] Replace with short forms
+[x] Static content to be replaced (footer.php)
+[x] Change header layout for non-mobile devices
 [ ] Build default.php (that can have variants at the top)
-[ ] Static content to be replaced (footer.php)
 [ ] Fill imprint and data privacy statement
 [ ] Add language icons to switch language
 [ ] Build head of HTML document: Include opengraph stuff
+[ ] Introduce second ratio for other images
