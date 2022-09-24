@@ -12,7 +12,9 @@
             </div>
         </div>
         <figure class="featured">
-            <?= $page->image(); ?>
+            <div class="stage">
+                <?= $page->image(); ?>
+            </div>
         </figure>
 
         <div id="intro">

@@ -8,6 +8,7 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
     --color-darkgrey:   #646464;
     --color-medgrey:    #9a9a9a;
     --color-darkblue:   #134E6F;
+    --color-lightblue:  #DAE6ED;
     --color-red:        #FF6150;
     --color-turquoise:  #1AC0C6;
     --color-yellow:     #FFA822;
@@ -26,8 +27,16 @@ header {
     border-top: var(--border-size) solid var(--color-red);
 }
 
+.services header {
+    border-top-color: var(--color-yellow);
+}
+
+.about header {
+    border-top-color: var(--color-turquoise);
+}
+
 main {
-    border-top: var(--border-size) solid var(--color-darkblue);
+    /* border-top: var(--border-size) solid var(--color-darkblue);*/
     margin: 2rem 0;
 }
 
@@ -76,7 +85,7 @@ a {
 }
 
 .featured {
-    border-bottom: var(--border-size) solid var(--color-yellow);
+    /* border-bottom: var(--border-size) solid var(--color-yellow); */
 }
 
 .featured img {
@@ -140,17 +149,21 @@ a {
 
 /*! highlight */
 #highlight {
-    background-color: var(--color-lightgrey);
+    /* background-color: var(--color-lightgrey); */
 }
 
 #highlight h2 {
+    background-color: var(--color-lightblue);
+    /* border-radius: .8rem; */
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
     color: var(--color-darkblue);
     font-family: Georgia, serif;
     font-size: 1.2rem;
     font-weight: normal;
     line-height: 1.5;
-    margin: 0;
-    padding: 2rem 0;
+    margin: 0 0 2rem 0;
+    padding: 1rem;
 }
 
 #highlight p {
@@ -245,9 +258,9 @@ footer h3 {
 
     /*! header */
     /* header { border-top: var(--border-size) solid #c96; } */
-    #logo { padding: 1.7rem 0 0 0;margin: 0;float:left;width:30%; }
+    #logo { padding: 2rem 0 0 0;margin: 0;float:left;width:45%; }
     #logo img { width: 94%; }
-    #nav-main { text-align: right;margin: 0;padding: 1.8rem 0 0 0; }
+    #nav-main { text-align: right;margin: 0;padding: 2.5rem 0 0 0; }
 
     /*! main */
     #highlight h2 { font-size: 1.5rem; }
@@ -263,5 +276,5 @@ footer h3 {
 @media screen and (min-width: 48em) {
     body, html { font-size: 1.3rem; }
     .stage { width: 36rem; }
-    #intro { font-size: 1.5rem;}
+    #intro { }
 }

@@ -1,7 +1,7 @@
 <!-- header stage: logo, navigation -->
 <header class="home">
 
-  <div class="stage">
+  <div class="stage cf">
 
         <div id="logo">
             <a href="<?= $site->url(false); ?>"><img src="<?= $site->url(false); ?>/assets/logo.svg"></a>

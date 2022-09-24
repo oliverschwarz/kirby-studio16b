@@ -19,4 +19,4 @@
   <meta property="og:description" content="<?= $site->ogdescription() ?>">
 
 </head>
-<body>
+<body class="<?=$page->slug()?>">
