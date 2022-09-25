@@ -36,7 +36,6 @@ header {
 }
 
 main {
-    /* border-top: var(--border-size) solid var(--color-darkblue);*/
     margin: 2rem 0;
 }
 
@@ -82,10 +81,6 @@ a {
     margin: 0 auto;
     max-width: 90rem;
     padding: 0 1.5rem;
-}
-
-.featured {
-    /* border-bottom: var(--border-size) solid var(--color-yellow); */
 }
 
 .featured img {
