@@ -17,6 +17,16 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
     --border-size:      1rem;
 }
 
+@font-face {
+    font-family: 'Rubik Light';
+    src:    url('Rubik-Light.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Roboto Slab Light';
+    src:    url('RobotoSlab-ExtraLight.woff2') format('woff2');
+}
+
 /*! main elements */
 html, body {
     font-family: Helvetica, Arial, sans-serif;
@@ -115,6 +125,12 @@ a {
 #nav-main a {
     color: #888;
     text-decoration: none;
+}
+
+#nav-main a:hover {
+    color: var(--color-darkblue);
+    border-bottom: 3px solid var(--color-darkblue);
+    transition: all .3s linear;
 }
 
 #nav-main .selected a {
