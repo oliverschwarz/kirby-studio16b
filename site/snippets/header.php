@@ -10,7 +10,7 @@
         <nav id="nav-main">
           <ul class="menu">
           <?php foreach ($site->children()->listed() as $item): ?>
-            <li><?= $item->title()->link(); ?></li>
+            <li<?php if($item->isActive()): ?> class="selected"<?php endif; ?>><?= $item->title()->link(); ?></li>
           <?php endforeach; ?>
           
           <?php foreach($kirby->languages() as $language): if ($kirby->language() != $language): ?>
