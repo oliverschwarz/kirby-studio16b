@@ -29,7 +29,7 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
 
 /*! main elements */
 html, body {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Rubik Light', Helvetica, Arial, sans-serif;
     line-height: 1.5;
 }
 
@@ -169,7 +169,7 @@ a {
     border-top-right-radius: 1rem;
     border-bottom-left-radius: 1rem;
     color: var(--color-darkblue);
-    font-family: Georgia, serif;
+    font-family: 'Roboto Slab Light', Georgia, serif;
     font-size: 1.2rem;
     font-weight: normal;
     line-height: 1.5;
@@ -286,6 +286,6 @@ footer h3 {
 
 @media screen and (min-width: 48em) {
     body, html { font-size: 1.2rem; }
-    .stage { width: 36rem; }
+    .stage { width: 38rem; }
     #intro { }
 }
