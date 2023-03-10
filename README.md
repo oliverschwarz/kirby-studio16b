@@ -36,4 +36,4 @@ Our palette is taken from [a beautiful muzli colors palette](https://colors.muz.
 
 ## Documentation
 
-The main image ratio will be 1600 x 686 pixel.
+The main image ratio will be 1600 x 686 pixel. Icons are taken from https://github.com/lipis/flag-icons
