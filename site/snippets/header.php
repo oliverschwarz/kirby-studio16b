@@ -14,7 +14,7 @@
           <?php endforeach; ?>
           
           <?php foreach($kirby->languages() as $language): if ($kirby->language() != $language): ?>
-            <li><a href="<?= $language->url() ?>" hreflang="<?= $language->code() ?>"><?= html($language->code()) ?></a></li>
+            <li class="language-icon <?= $language->code() ?>"><a href="<?= $language->url() ?>" hreflang="<?= $language->code() ?>"><img src="/assets/<?= $language->code() ?>.svg" width="16" height="16"></a></li>
           <?php endif; endforeach; ?>
 
           </ul>
