@@ -1,16 +1,18 @@
 # Website studio16b (based on Kirby CMS)
 
-Open repository for the website of our Studio16b. Feel free to copy and share if something is useful to you. Here is are the general principles:
+Open repository for the website of our Studio16b. Please note, that you will need a copy of the infamous [Kirby CMS](https://getkirby.com). This repository only contains the custom part of the CMS, not the core. Feel free to copy and share if something is useful to you. Here are the general principles over the different versions:
 
 ### Version 1
 
 * No cookies
+* No JavaScript
 * Explaining why, what we do and who we are
 * Easy contact
 * Favicon
 
 ### Version 2
 
+* Custom fonts using OFL
 * Blog & Article content
 * Friends / Testimonials
 
