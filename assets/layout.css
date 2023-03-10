@@ -138,6 +138,7 @@ a {
 #nav-main .language-icon img {
     position: relative;
     top: .1rem;
+    border-radius: .3rem;
 }
 
 /*! main content */
