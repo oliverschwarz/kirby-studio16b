@@ -63,7 +63,7 @@ footer {
     border-top: var(--border-size) solid var(--color-turquoise);
 }
 
-img {
+main img, #logo img {
     max-width: 100%;
     width: 100%;
     /*display: block;*/
@@ -129,12 +129,15 @@ a {
 
 #nav-main a:hover {
     color: var(--color-darkblue);
-    border-bottom: 3px solid var(--color-darkblue);
-    transition: all .3s linear;
 }
 
 #nav-main .selected a {
     color: var(--color-darkblue);
+}
+
+#nav-main .language-icon img {
+    position: relative;
+    top: .1rem;
 }
 
 /*! main content */
