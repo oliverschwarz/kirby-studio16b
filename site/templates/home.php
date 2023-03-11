@@ -29,6 +29,22 @@
         </div>
     </div>
 
+    <div id="testimonials">
+        <div class="stage">
+        <h2><?= $site->find('testimonials')->title() ?></h2>
+        <?php foreach ($site->find('testimonials')->children()->listed() as $item): ?>
+            <article class="cf">
+                <figure>
+                    <?= $item->image() ?>
+                </figure>
+                <?= $item->text()->kirbytext(); ?>
+                <p><a href="<?= $item->link() ?>"><?= $item->author(); ?> (<?= $item->company() ?>)</a></p>
+            </article>
+        <?php endforeach; ?>
+
+        </div>
+    </div>
+
 </main>
 
 <?php snippet('footer'); ?>
