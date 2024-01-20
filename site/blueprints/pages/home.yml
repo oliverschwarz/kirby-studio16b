@@ -20,7 +20,7 @@ fields:
   text:
     label: Text
     type: textarea
-    width: large
+    size: large
 
 sidebar:
   image:
